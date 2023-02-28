@@ -5,5 +5,5 @@ from rest_framework import serializers
 class DecisionSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Decision
-        fields = ['regBody', 'companyName', 'decisionType', 'allegationType']
+        fields = ['id','regBody', 'companyName', 'decisionType', 'allegationType']
     
